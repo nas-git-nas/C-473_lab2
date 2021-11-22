@@ -1,0 +1,19 @@
+
+State Machine - |DE0_Nano_SoC_top_level|N_leds:u0|WS2812Controller:n_leds_controller_0|SM
+Name SM.Refresh SM.L0 SM.L1 SM.H0 SM.H1 SM.DutyCycle SM.LedCheck 
+SM.LedCheck 0 0 0 0 0 0 0 
+SM.DutyCycle 0 0 0 0 0 1 1 
+SM.H1 0 0 0 0 1 0 1 
+SM.H0 0 0 0 1 0 0 1 
+SM.L1 0 0 1 0 0 0 1 
+SM.L0 0 1 0 0 0 0 1 
+SM.Refresh 1 0 0 0 0 0 1 
+
+State Machine - |DE0_Nano_SoC_top_level|N_leds:u0|N_leds_nios2_gen2_0:nios2_gen2_0|N_leds_nios2_gen2_0_cpu:cpu|N_leds_nios2_gen2_0_cpu_nios2_oci:the_N_leds_nios2_gen2_0_cpu_nios2_oci|N_leds_nios2_gen2_0_cpu_debug_slave_wrapper:the_N_leds_nios2_gen2_0_cpu_debug_slave_wrapper|N_leds_nios2_gen2_0_cpu_debug_slave_tck:the_N_leds_nios2_gen2_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
